@@ -24,7 +24,7 @@ This is a repository for documenting all the tasks performed as a part of VSDSqu
 
 - Command for GCC Compilation: *gcc sum1ton.c*
 
-    ![C Program Screenshot](main\screen_snaps\C_prog_vim.png)
+    ![C Program Screenshot](screen_snaps/C_prog_vim.png)
 
 
 - Command to run the C Program: *./a.out*
