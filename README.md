@@ -29,7 +29,7 @@ This is a repository for documenting all the tasks performed as a part of VSDSqu
 
 - Command to run the C Program: *./a.out*
 
-    ![C Program Screenshot](screen_snaps/C_program_run.png)
+    ![C Program Screenshot](screen_snaps/C_program_run_terminal.png)
 
 
 - Command to compile using RISC-V GCC Compiler(O1 optimization): *riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c*
