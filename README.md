@@ -22,22 +22,32 @@ This is a repository for documenting all the tasks performed as a part of VSDSqu
 
 ### Methodology
 
-- Command for GCC Compilation: *gcc sum1ton.c*
+- Command for GCC Compilation: 
+
+    ```gcc sum1ton.c```
 
     ![C Program Screenshot](screen_snaps/C_prog_vim.png)
 
 
-- Command to run the C Program: *./a.out*
+- Command to run the C Program: 
+
+    ```./a.out```
 
     ![C Program Screenshot](screen_snaps/C_program_run_terminal.png)
 
 
-- Command to compile using RISC-V GCC Compiler(O1 optimization): *riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c*
+- Command to compile using RISC-V GCC Compiler(O1 optimization): 
+
+    ```riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c```
 
 
-- Command to get the assembly code: *riscv64-unknown-elf-objdump –d sum1ton.o*
+- Command to get the assembly code: 
 
-- Command to dump the assembly code into a text file for later analysis: *riscv64-unknown-elf-objdump -d sum1ton.o > dis_assembly_O1_optimization.txt*
+    ```riscv64-unknown-elf-objdump –d sum1ton.o```
+
+- Command to dump the assembly code into a text file for later analysis: 
+    
+    ```riscv64-unknown-elf-objdump -d sum1ton.o > dis_assembly_O1_optimization.txt```
 
 
 ### Observations
