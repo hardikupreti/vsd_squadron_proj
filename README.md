@@ -24,12 +24,12 @@ This is a repository for documenting all the tasks performed as a part of VSDSqu
 
 - Command for GCC Compilation: *gcc sum1ton.c*
 
-    ![C Program Screenshot](screen_snaps\C_prog_vim.png)
+    ![C Program Screenshot](screen_snaps/C_prog_vim.png)
 
 
 - Command to run the C Program: *./a.out*
 
-    ![C Program Screenshot](screen_snaps\C_program_run.png)
+    ![C Program Screenshot](screen_snaps/C_program_run.png)
 
 
 - Command to compile using RISC-V GCC Compiler(O1 optimization): *riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c*
@@ -44,15 +44,15 @@ This is a repository for documenting all the tasks performed as a part of VSDSqu
 
 - O1 Optimization 
 
-    ![O1 Optimization Screenshot](screen_snaps\o1.png)
+    ![O1 Optimization Screenshot](screen_snaps/o1.png)
 
 - Ofast Optimization 
 
-    ![Ofast Optimization Screenshot](screen_snaps\ofast.png)
+    ![Ofast Optimization Screenshot](screen_snaps/ofast.png)
 
 - O0 Optimization 
 
-    ![O0 Optimization Screenshot](screen_snaps\o0.png)
+    ![O0 Optimization Screenshot](screen_snaps/o0.png)
 
     We see that different optimization configurations yield different number of machine instructions depending on the level of optimization the configurations provide.
 
